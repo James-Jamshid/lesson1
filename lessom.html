@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,48 @@
     <title>Document</title>
     <link rel="stylesheet" href="./lesson.css">
 </head>
+
 <body>
-    <p>hello world</p>
-    <table class="table">
-      <tr>
-        <th>
-            mon
-        </th>
-        <th>
-            tue
-        </th>
-      </tr>
-      <tr>
-          <td>
-              first
-          </td>
-          <td>second</td>
-      </tr>
-    </table>
+    <form>
+        <div class="name">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" placeholder="name">
+            </div>
+
+            <div>
+                <label for="emal">Email</label>
+                <input type="email" placeholder="email">
+            </div>
+            <div>
+                <label for="date">Arrival -<br> Date</label>
+                <input type="text" placeholder="Arrival Date">
+            </div>
+            <div>
+                <label for="departure"> Departure <br> Date</label>
+                <input type="text" placeholder="Departure Date">
+
+            </div>
+            <div>
+                <label for="number">Number <br> of Guest</label>
+                <input type="number" placeholder="number">
+
+            </div>
+            <div>
+                <label for="pickup">Free <br>Pickup</label>
+
+
+            <div class="option">
+                <label for="room">Room type</label>
+                <select name="room" id="room">
+                    <option value="oneroom"> oneroom</option>
+                    <option value="tworoom">tworoom</option>
+                    <option value="mitworoom"> mitworoom</option>
+                </select>
+
+            </div>
+        </div>
+    </form>
 </body>
+    
 </html>
